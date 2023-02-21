@@ -4,6 +4,16 @@ const generateMarkdown = require('./generateMarkdown');
 
 inquirer.prompt([
     {
+        type: "input",
+        message: "Enter your GitHub username: ",
+        name: "username",
+    },
+    {
+        type: "input",
+        message: "Enter your email: ",
+        name: "email",
+    },
+    {
         type: 'input',
         message: 'Project name: ',
         name: 'title',
@@ -50,16 +60,6 @@ inquirer.prompt([
         type: 'input',
         message: 'Do you have any question?(Optional).',
         name: 'questions',
-    },
-    {
-        type: "input",
-        message: "Enter your GitHub username: ",
-        name: "username",
-    },
-    {
-        type: "input",
-        message: "Enter your email: ",
-        name: "email",
     }
 
 ])

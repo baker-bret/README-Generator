@@ -46,7 +46,7 @@ ${renderLicenseSection(data.license)}
 ## Questions
 If you have any question, Email me at: ${data.email} 
   
-  Find me on GitHub: [${data.username}](https://github.com/${data.username})burt
+  Find me on GitHub: [${data.username}](https://github.com/${data.username})
 `;
 }
 
